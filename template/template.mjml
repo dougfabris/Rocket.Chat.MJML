@@ -1,6 +1,6 @@
 <mjml>
   <mj-body width='600px'>
-    <mj-section padding='40px 32px' background-color='#1D74F5'>
+    <mj-section background-url='https://github.com/dougfabris/Rocket.Chat.MJML/blob/main/template/img/pattern-header.png?raw=true' background-repeat='no-repeat' background-position='top right' background-position='center center' padding='40px 32px' background-color='#1D74F5'>
       <mj-column width='80%'>
         <mj-image padding='0' width='136.26px' align='left' src='img/rc-logo-wh.png' />
         <mj-text padding-top='30px' padding='0' font-family='Arial' font-size='38px' line-height='43.7px' color='white'>
