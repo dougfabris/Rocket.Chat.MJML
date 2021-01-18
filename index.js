@@ -8,13 +8,14 @@ var template = require('./template');
 
 const mjmlSyntax = `
   <mjml>
-    <mj-body>
-      ${template.header}
+    <mj-body width='600px'>
+      ${template.header({ title: 'Ut enim ad minim! Nostrud exercitation' })}
+      ${template.footer()}
     </mj-body>
   </mjml>
 `;
 
-const htmlOutput = mjml2html(mjmlSyntax);
+const htmlOutput = mjml2html(mjmlSyntax, { minify: true });
 
 /*
   Print the responsive HTML generated and MJML errors if any
